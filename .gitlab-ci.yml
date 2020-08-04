@@ -4,5 +4,5 @@ build:
   script: "mvn install -B"
   artifacts:
     paths:
-      - *.war
+      - "*.war"
     expire_in: 1 month
